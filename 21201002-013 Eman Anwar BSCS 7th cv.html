@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eman CV</title>
+
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(31, 31, 31);
+        }
+        .m-top20{
+            margin-top: 20px;
+        }
+        .m-top10{
+            margin-top: 10px;
+        }
+        h2{
+            text-transform: uppercase;
+        }
+        #contaner{
+            display: flex;
+            width: 1000px;
+            height: 150vh;
+            padding: 20px;
+            background-color: white;
+        }
+        #first{
+            width: 30%;
+            height: 100%;
+            background-color: whitesmoke;
+        }
+        #prof{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:20%;
+            width: 100%;
+        }
+        #image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 190px;
+            width: 190px;
+            border-radius: 50%;
+            background-color: white;
+        }
+        ion-icon{
+            font-size: 140px;
+        }
+        #content{
+            padding: 50px 25px;
+            line-height: 25px;
+
+        }
+
+        #second{
+            padding: 30px;
+            height: 100%;
+            width: 70%;
+        }
+        #head{
+            display: flex;
+            align-items: center;
+            height: 7%;
+            width: 100%;
+            padding-left: 10px;
+            margin-bottom: 30px;
+            background-color: rgb(39, 41, 106);
+        }
+        #head #name{
+            font-size: 45px;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="contaner">
+        <div id="first">
+            <div id="prof">
+                <div id="image"> <ion-icon name="person-outline"></ion-icon></div>
+            </div>
+            
+            <div id="content" > 
+                <div id="contact">
+                    <h2>Contact</h2>
+                    <hr>
+                    <p>
+                        <Strong>Email:</Strong> Emananwar732@gmail.com <br>
+                        <Strong>Phone:</Strong> 0331-0462182 <br>
+                        <strong>Address: </strong>Village Bambanwala Tehsil 
+                        Daska District Sialkot, Daska, Pakistan
+                    </p>
+    
+                </div>
+                <div id="skill" class="m-top20">
+                    <h2>Skills</h2>
+                    <hr>
+                    <ul>
+                        <li>Communication Skills</li>
+                        <li>Content Writing</li>
+                        <li>Office Mangement</li>
+                        <li>Web Development</li>
+                    </ul>
+                </div>
+                <div id="language" class="m-top20">
+                    <h2>Languages</h2>
+                    <hr>
+                    <ul>
+                        <li>English</li>
+                        <li>Urdu</li>
+                        <li>Punjabi</li>
+                    </ul>
+                </div>
+                <div id="interest" class="m-top20">
+                    <h2>Interests</h2>
+                    <hr>
+                    <ul>
+                        <li>Playing Games</li>
+                        <li>Reading Books</li>
+                        <li>Cooking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="second">
+            <div id="head">
+                <h1 id="name">Eman Anwar</h1>
+            </div>
+            <div id="proj" style="line-height: 20px;">
+                <h2>Education</h2>
+                <hr>
+                <h4 class="m-top10">Bachelor in Computer Science continue</h4>
+                <h4>University of Sialkot ,Sialkot</h4>
+                <p>03/2024 - Present</p> 
+
+                <h4 class="m-top10">Intermidiate in Computer Science</h4>
+                <h5>Nimble institute of modern studies, Daska</h5>
+
+                <h4 class="m-top10">Matric With Science</h4>
+                <h5>Tamir-e-Millat High School, Mitranwali</h5>
+            </div>
+
+            <div id="proj" class="m-top20" style="line-height: 22px;">
+                <h2>Personal Projects</h2>
+                <hr>
+                <h4 class="m-top10">Student Management System</h4>
+                <p>I Develop a console-based application to manage student records, including their personal information, grades, attendance, and course registration. Implement features like adding, deleting, and updating student records, generating reports, and handling database operations for data storage.</p>
+
+                <h4 class="m-top10">Online Quiz Application</h4>
+                <p>I Design and code a quiz application where users can take quizzes on various subjects and receive instant feedback on their performance.</p>
+
+                <h4 class="m-top10">ATM Management</h4>
+                <p>This is a window base application that is developed in visual studio with the help of C# programming language. This application is develop to facilitate the non-technical user with simple graphic use interface</p>
+            </div>
+            
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
